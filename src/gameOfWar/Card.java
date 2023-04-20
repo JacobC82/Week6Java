@@ -14,22 +14,44 @@ public class Card {
 		this.value = value;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public String getSuit() {
-		return suit;
-	}
 
 	public int getValue() {
 		return value;
 	}
 
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+
+
+	public String getSuit() {
+		return suit;
+	}
+
+
+
+	public void setSuit(String suit) {
+		this.suit = suit;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String describe() {
+		
 		return name + " of " + suit;
 	}
+
 	
 }
